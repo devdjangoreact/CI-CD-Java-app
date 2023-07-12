@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+    java-maven-app:
+      image: farnsworth1988/java-maven-app:${IMAGE}
+      ports:
+        - 8080:8080
+
